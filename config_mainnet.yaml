@@ -34,11 +34,12 @@ consensus:
   scheme: ROLLDPOS
   rollDPoS:
     fsm:
-      unmatchedEventTTL: 1s
-      unmatchedEventInterval: 100ms
-      acceptBlockTTL: 2s
-      acceptProposalEndorsementTTL: 1s
-      acceptLockEndorsementTTL: 1s
+      unmatchedEventTTL: 0.9s
+      unmatchedEventInterval: 33ms
+      acceptBlockTTL: 1.2s
+      acceptProposalEndorsementTTL: 0.6s
+      acceptLockEndorsementTTL: 0.6s
+      commitTTL: 0.6
     delay: 3s
 
 blockSync:
