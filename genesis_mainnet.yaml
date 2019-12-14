@@ -33,9 +33,9 @@ account:
 blockchain:
   actionGasLimit: 5000000
   blockGasLimit: 20000000
-  blockInterval: 10s
-  numCandidateDelegates: 36
-  numDelegates: 24
+  blockInterval: 3s
+  numCandidateDelegates: 4
+  numDelegates: 4
   numSubEpochs: 15
   timeBasedRotation: true
   timestamp: 1553558500
@@ -93,6 +93,6 @@ rewarding:
   foundationBonus: "80000000000000000000"
   foundationBonusLastEpoch: 8760
   initBalance: "200000000000000000000000000"
-  numDelegatesForEpochReward: 100
-  numDelegatesForFoundationBonus: 36
+  numDelegatesForEpochReward: 4
+  numDelegatesForFoundationBonus: 4
   productivityThreshold: 85
