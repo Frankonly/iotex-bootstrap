@@ -41,7 +41,7 @@ blockchain:
   timestamp: 1553558500
 poll:
   delegates: []
-  enableGravityChainVoting: true
+  enableGravityChainVoting: false
   gravityChainHeightInterval: 100
   gravityChainStartHeight: 7614500
   registerContractAddress: 0x95724986563028deb58f15c5fac19fa09304f32d
